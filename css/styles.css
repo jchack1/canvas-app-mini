@@ -1,0 +1,38 @@
+@import url(reset.css);
+
+.page-container {
+  /* background-color: #222; */
+  overflow: hidden;
+  display: flex;
+  margin: 0 auto;
+  width: 100vw;
+  height: 100vh;
+}
+
+.canvas-container {
+  display: flex;
+  justify-items: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.canvasdiv {
+  /* background: #ccc; */
+  width: 700px;
+  height: 500px;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px 0px;
+  cursor: none;
+}
+
+.canvas {
+  width: 700px;
+  height: 500px;
+}
+
+.palette {
+  background: #ccc;
+  width: 200px;
+  height: 500px;
+  margin-right: 50px;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px 0px;
+}
